@@ -3,7 +3,7 @@ import { useState } from "react";
 import styled from "styled-components";
 
 function App() {
-  const [todos, setTodos] = useState(["java"]);
+  const [todos, setTodos] = useState([]);
   const [inputText, setInputText] = useState("");
 
   const onChangeText = (e) => {
