@@ -84,6 +84,7 @@ function App() {
 
 const Sli = styled.li`
   list-style-type: decimal;
+  color: #333;
 `;
 
 export default App;
